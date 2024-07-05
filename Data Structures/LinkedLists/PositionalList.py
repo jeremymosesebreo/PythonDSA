@@ -58,7 +58,7 @@ class PositionalList(_DoublyLinkedBase):
             cursor = self.after(cursor)
     #--mutators
     #override inherited version to return Position, rather than Node
-    def _inset_between(self, e, predecessor, successor):
+    def _insert_between(self, e, predecessor, successor):
         '''Add element between existing nodes and return new Position'''
         node = super()._insert_between(e, predecessor, successor)
         return self._make_position(node)
