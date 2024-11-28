@@ -19,3 +19,11 @@ print("Postorder traversal: ", end = " ")
 for i in tree.postorder():
     print(i.element(), end = " ")
 print()
+
+#add an inorder algorithm for the tree
+#The following equations should be written into a binary tree
+#Equation 1: (3 * 5) - ((4 * 5) + (6 - 7))
+#Equation 2: ((a + b) * c) - (d - e)
+#Equation 3: ((a ^ b) + (c + d)) + ((e * f) / (g + h)
+#Equation 4: (a + b) / (c * (d - (e ^ f)))
+#Equation 5: ((a - b) + c) * ((d + e) * (f / g))
